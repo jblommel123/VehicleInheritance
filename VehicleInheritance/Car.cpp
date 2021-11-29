@@ -7,11 +7,11 @@ Car::Car()
 	setYear(1900);
 }
 
-Car::Car(int, int, std::string)
+Car::Car(int NumberOfDoors, int Year, std::string Manufacturer)
 {
-	numberOfDoors = 4;
-	setManufacturer("");
-	setYear(1900);
+	numberOfDoors = NumberOfDoors;
+	setManufacturer(Manufacturer);
+	setYear(Year);
 }
 
 void Car::displayInfo()
@@ -32,9 +32,8 @@ void Car::setNumberOfDoors()
 	numberOfDoors = 4;
 }
 
-
-
-int Car::getNumberOfDoors()
+int Car::getNumberOfDoors() const
 {
-	return 0;
+	return numberOfDoors;
 }
+

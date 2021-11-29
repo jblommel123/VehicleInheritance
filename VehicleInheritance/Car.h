@@ -13,7 +13,7 @@ class Car : public Vehicle
 		void displayInfo();
 		void setNumberOfDoors(int NumberOfDoors);
 		void setNumberOfDoors();
-		int getNumberOfDoors();
+		int getNumberOfDoors() const;
 
 };
 
