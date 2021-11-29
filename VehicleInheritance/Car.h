@@ -14,6 +14,7 @@ class Car : public Vehicle
 		void setNumberOfDoors(int NumberOfDoors);
 		void setNumberOfDoors();
 		int getNumberOfDoors() const;
+		std::string getManufacturer() const;
 
 };
 

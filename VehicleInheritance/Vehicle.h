@@ -14,7 +14,7 @@ class Vehicle
 		Vehicle(std::string,int);
 		std::string getManufacturer() const;
 		int getYear() const;
-		void setManufacturer(std::string Manufacturer);
+		void setManufacturer(std::string);
 		void setYear(int year);
 		void displayInfo();
 

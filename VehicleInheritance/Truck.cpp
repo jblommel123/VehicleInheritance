@@ -20,8 +20,7 @@ void Truck::setTowingCapacity(int TowingCapacity)
 
 void Truck::displayInfo()
 {
-	std::cout << "Truck." << std::endl;
-	std::cout << "Manufacturer: " << getManufacturer() << std::endl;
-	std::cout << "Year: " << getYear() << std::endl;
-	std::cout << "Towing Capacity: " << towingCapacity << std::endl;
+	std::cout << "Displaying Truck Class Info." << std::endl;
+	std::cout << "Towing Capacity: " << Truck::towingCapacity << std::endl;
+	Vehicle::displayInfo();
 }
